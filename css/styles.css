@@ -3,21 +3,25 @@
 }
 body{
   background-color: blue;
-  background-image: url(../images/background.jpg);
+  background-image: url(../images/bird.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
 }
 
+
 /* .about, img {
   float: left;
 } */
 
-.about {
+img, .project, .about {
   float: left;
-  width: 50%;
 }
 
-.project {
-  float:left;
+.about, .project {
+  margin-left: 100px;
+}
+
+.about {
+  width: 50%;
 }
